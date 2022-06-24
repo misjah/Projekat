@@ -19,7 +19,7 @@ public class SignUpTest extends BasicTests{
         Assert.assertTrue(signUp.passwordInput().getAttribute("type").contains("password"),
                 "[ERROR] Attribute type does not contains password");
         Assert.assertTrue(signUp.confirmPasswordInput().getAttribute("type").contains("password"),
-                "[ERROR] Attribute type does not contains password");
+                "[ERROR] Attribute type does not contain password");
     }
     @Test (priority = 30) //Test #3: Displays errors when user already exists
     public void displaysErrorsWhenUserAlreadyExists(){
